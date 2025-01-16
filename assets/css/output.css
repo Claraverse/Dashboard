@@ -5698,12 +5698,12 @@ select{
     margin-bottom: 0px;
   }
 
-  .xl\:ml-0{
-    margin-left: 0px;
-  }
-
   .xl\:ml-16{
     margin-left: 4rem;
+  }
+
+  .xl\:ml-20{
+    margin-left: 5rem;
   }
 
   .xl\:mt-0{
@@ -5712,18 +5712,6 @@ select{
 
   .xl\:mt-\[120px\]{
     margin-top: 120px;
-  }
-
-  .xl\:-ml-20{
-    margin-left: -5rem;
-  }
-
-  .xl\:ml-20{
-    margin-left: 5rem;
-  }
-
-  .xl\:ml-11{
-    margin-left: 2.75rem;
   }
 
   .xl\:block{
