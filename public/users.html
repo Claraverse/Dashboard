@@ -6,6 +6,7 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Users</title>
     <link rel="stylesheet" href="./assets/css/output.css" />
@@ -970,14 +971,16 @@
               </div>
             </div>
             <div class="copy-write-text">
-              <p class="text-sm text-[#969BA0]">© 2023 All Rights Reserved</p>
+              <p class="text-sm text-[#969BA0]">
+                © <span id="currentYear"></span> All Rights Reserved
+              </p>
               <p class="text-sm font-medium text-bgray-700">
                 Made with ❤️ by
                 <a
-                  href="#"
+                  href="https://linkedin.com/company/claraverse"
                   target="_blank"
                   class="border-b font-semibold hover:text-blue-600"
-                  >QuomodoTheme</a
+                  >Claraverse</a
                 >
               </p>
             </div>
@@ -4498,6 +4501,10 @@
     </div>
 
     <!--scripts -->
+    <script>
+      const year = new Date().getFullYear();
+      document.getElementById("currentYear").textContent = year;
+    </script>
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/quill.min.js"></script>

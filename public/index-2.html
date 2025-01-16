@@ -973,14 +973,16 @@
               </div>
             </div>
             <div class="copy-write-text">
-              <p class="text-sm text-[#969BA0]">© 2023 All Rights Reserved</p>
+              <p class="text-sm text-[#969BA0]">
+                © <span id="currentYear"></span> All Rights Reserved
+              </p>
               <p class="text-sm font-medium text-bgray-700">
                 Made with ❤️ by
                 <a
-                  href="#"
+                  href="https://linkedin.com/company/claraverse"
                   target="_blank"
                   class="border-b font-semibold hover:text-blue-600"
-                  >QuomodoTheme</a
+                  >Claraverse</a
                 >
               </p>
             </div>
@@ -5695,5 +5697,9 @@
       monthSpendingBar.update();
       revenueFlow.update();
     </script>
+      <script>
+        const year = new Date().getFullYear();
+        document.getElementById("currentYear").textContent = year;
+      </script>
   </body>
 </html>
